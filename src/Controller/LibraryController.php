@@ -17,6 +17,7 @@ class LibraryController extends AbstractController
         $this->logger = $logger;
     }
 
+    
     /**
      * @Route("/library/list", name="library_list")
      */
